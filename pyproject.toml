@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drowsiness-detector"
+version = "0.1.0"
+description = "Detects and alerts drivers of drowsiness"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+authors = [
+    {name = "Deacon Booker"}
+]
+dependencies = [
+    "mediapipe==0.10.14",
+    "numpy==2.4.3",
+    "opencv-contrib-python==4.13.0.92",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black",
+]

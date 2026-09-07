@@ -1,0 +1,17 @@
+# === Python Cache & Artifacts ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+
+# === IDE & Code Editor Files ===
+.vscode/
+.idea/
+*.swp
+*.swo
